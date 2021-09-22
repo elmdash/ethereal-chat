@@ -8,6 +8,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "sanitize.css": "^13.0.0",
     "vue": "^3.2.13"
   },
   "devDependencies": {

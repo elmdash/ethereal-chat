@@ -1,0 +1,12 @@
+@import 'sanitize.css';
+@import 'sanitize.css/forms.css';
+@import 'sanitize.css/assets.css';
+@import 'fonts.css';
+@import 'base.css';
+
+
+:root {
+    --c-bg: #F5FBFF;
+    --c-fg: #000000;
+    --c-accent: #FF0000;
+}

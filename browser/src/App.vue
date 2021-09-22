@@ -6,14 +6,16 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <img alt="Vue logo" src="./assets/logo.svg" />
+  <p>
+    <strong>This <em>is</em> a lead</strong>. Here is some <em>regular</em> text.
+  </p>
   <HelloWorld msg="Hello Vue 3 + Vite" />
 </template>
 
 <style>
+@import './assets/main.css';
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;

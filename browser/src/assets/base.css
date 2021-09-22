@@ -1,0 +1,13 @@
+body {
+    background: var(--c-bg);
+    color: var(--c-fg);
+    font-family: var(--f-sans-400);
+}
+
+a {
+    color: var(--c-accent);
+}
+
+code {
+    font-family: var(--f-mono-400);
+}
